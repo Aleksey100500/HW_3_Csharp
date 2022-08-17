@@ -18,6 +18,7 @@
             
             num /= 10; 
         }
+        Console.WriteLine("acc = " +acc);
         return acc;
     }
 }
