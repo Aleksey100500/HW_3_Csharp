@@ -9,7 +9,7 @@ class Program
         Console.WriteLine("Введите число N - ");
         int n = Convert.ToInt32(Console.ReadLine());
 
-        for (double i = 1; i <= n; i++)
+        for (int i = 1; i <= n; i++)
         {
             double result = Math.Pow(i, 3);
 
