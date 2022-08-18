@@ -13,7 +13,7 @@ class Program
         {
             double result = Math.Pow(i, 3);
 
-            Console.Write(i + "^3" + " = " + result + "| ");
+            Console.Write(result + " | ");
         }
     }
 }

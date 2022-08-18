@@ -10,16 +10,16 @@
         Console.ReadKey();
     }
 
-    static int Reverse(int num, int acc)
+    static int Reverse(int num, int count)
     {
 
         while (num > 0) 
         { 
-            acc = acc * 10 + num % 10;
+            count = count * 10 + num % 10;
             
             num /= 10; 
         }
-        Console.WriteLine("acc = " +acc);
-        return acc;
+        Console.WriteLine("count = " +count);
+        return count;
     }
 }
